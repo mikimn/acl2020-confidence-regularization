@@ -112,3 +112,19 @@ You can cite this work by the following:
 ## Acknowledgement
 The code in this repository is build on the implementation of debiasing method by Clark et al.
 The original version can be found [here](https://github.com/chrisc36/debias) 
+
+## Fixes
+
+Create an environment:
+```
+conda create --name conf-reg python=3.6
+```
+Install requirements and remove bad version of apex
+```
+pip install -r requirements.txt
+pip uninstall apex
+```
+Install latest version of apex
+```
+pip install apex
+```
